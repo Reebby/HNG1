@@ -1,0 +1,101 @@
+/**.nav {
+    background: #4F4F4F;
+    width: 1355px;
+height: 100px;
+position: absolute;
+padding: 20px,20px;
+text-align: right;
+}
+**/
+div.main {
+    margin: 300px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+  div.main h2 {
+     
+    margin: 5%;
+    font-weight: bold;
+    color:rgb(219, 45, 152);
+    fill: Solid;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  div.main p {
+      
+    margin: 5%;
+    font-weight: bold;
+    color: orange;
+    fill: Solid;
+    text-align: left, right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  div.main button {
+      background-color: white;
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+    fill: Solid;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    
+        background-image: url("top.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.avater {
+        border-radius: 50%;     
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
