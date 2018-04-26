@@ -6,7 +6,6 @@
     <title>HNG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <script src="main.js"></script>
 </head>
 <body id="content">
     
@@ -21,8 +20,9 @@
     </div>
     <div class="main">  
             <h2>  HNG INTERNSHIP <h2>
-                    <p>DATE: 4/26/2018</p>  <p>TIME: 11:00am</p> <br />
-                    <button>GET STARTED</button>
+            <p>DATE: <?php echo date("d-m-Y")  ?></p> 
+            <p>TIME:<?php echo date("h:ia")  ?></p> <br />
+            <button>GET STARTED</button>
      </div>
     
        <div class="footer">
