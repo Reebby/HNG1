@@ -21,7 +21,11 @@
     <div class="main">  
             <h2>  HNG INTERNSHIP <h2>
             <p>DATE: <?php echo date("d-m-Y")  ?></p> 
-            <p>TIME:<?php echo date("h:ia")  ?></p> <br />
+             <p>TIME: <?php
+                  date_default_timezone_set("Africa/Lagos");
+                  echo date("h:ia");  ?>
+            </p> 
+            <br />    
             <button>GET STARTED</button>
      </div>
     
